@@ -1,0 +1,2364 @@
+<Root type="OR" ref="SampleProject">
+  <Page title="Cognizant Intelligent Test Scripter" ref="Cognizant">
+    <ObjectGroup ref="×">
+      <Object frame="" ref="×">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[@onclick=&quot;document.getElementById('teaser').style.display = 'none';&quot;]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/span" ref="xpath" pref="5"/>
+        <Property value="w3-closebtn" ref="class" pref="6"/>
+        <Property value="span.w3-closebtn" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Logout">
+      <Object frame="" ref="Logout">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Logout" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Logout')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/ul/li[8]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.js cssanimations > body > #templatemo_main_menu > div.container > div.row > div.col-xs-12 > ul.nav.nav-justified > li.page-navigate > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="User ID :">
+      <Object frame="" ref="User ID :">
+        <Property value="userLogin" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Cognizant Network ID']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="input[name=&quot;userLogin&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password :">
+      <Object frame="" ref="Password :">
+        <Property value="userPassword" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="input[name=&quot;userPassword&quot;]" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="submit" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@value='submit']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary btn-block login" ref="class" pref="6"/>
+        <Property value="button[name=&quot;submit&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Invalid username and password">
+      <Object frame="" ref="Invalid username and password">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="errmsg" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Invalid username and password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/p" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#errmsg" ref="css" pref="7"/>
+        <Property value="p" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Sign in [Jenkins]" ref="Sign">
+    <ObjectGroup ref="Username">
+      <Object frame="" ref="Username">
+        <Property value="j_username" ref="name" pref="1"/>
+        <Property value="j_username" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Username']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="normal" ref="class" pref="6"/>
+        <Property value="#j_username" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="j_password" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="normal" ref="class" pref="6"/>
+        <Property value="input[name=&quot;j_password&quot;]" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="Submit" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Sign in']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/form/div[3]/input" ref="xpath" pref="5"/>
+        <Property value="submit-button primary" ref="class" pref="6"/>
+        <Property value="input[name=&quot;Submit&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="remember_me">
+      <Object frame="" ref="remember_me">
+        <Property value="remember_me" ref="name" pref="1"/>
+        <Property value="remember_me" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='remember_me']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/form/div[4]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#remember_me" ref="css" pref="7"/>
+        <Property value="checkbox" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Dashboard [Jenkins]" ref="Dashboard">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[2]/div[2]/table/tbody/tr[2]/td[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.dashboard > div.pane-frame > #projectstatus > tbody > #job_CITS_Freestyle_Local > td:nth-of-type(2) > a.model-link.inside" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Manage Jenkins">
+      <Object frame="" ref="Manage Jenkins">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Manage Jenkins" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Manage Jenkins')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="New Item">
+      <Object frame="" ref="New Item">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="New Item" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'New Item')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div/div/a[2])[1]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local [Jenkins]" ref="CITS_Freestyle_Local">
+    <ObjectGroup ref="Build Now">
+      <Object frame="" ref="Build Now">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Build Now" ref="link_text" pref="3"/>
+        <Property value="(//a[@onclick='return build_id20(this)'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[5]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#2">
+      <Object frame="" ref="#2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#2" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#2')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Configure">
+      <Object frame="" ref="Configure">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Configure" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Configure')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[7]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Build with Parameters">
+      <Object frame="" ref="Build with Parameters">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Build with Parameters" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Build with Parameters')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[5]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#3">
+      <Object frame="" ref="#3">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#3" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#3')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#4">
+      <Object frame="" ref="#4">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#4" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'#4')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#41">
+      <Object frame="" ref="#41">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#4" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'#4')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Jenkins">
+      <Object frame="" ref="Jenkins">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Jenkins" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Jenkins')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div[2]/div[2]/div[2]/ul/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#5">
+      <Object frame="" ref="#5">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#5" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'#5')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#51">
+      <Object frame="" ref="#51">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#5" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'#5')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#6">
+      <Object frame="" ref="#6">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#6" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#6')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="HTML Report">
+      <Object frame="" ref="HTML Report">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="HTML Report" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'HTML Report')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div[2]/table/tbody/tr/td[2]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > table > tbody > tr > td:nth-of-type(1) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#61">
+      <Object frame="" ref="#61">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#6" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'#6')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#7">
+      <Object frame="" ref="#7">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#7" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#7')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#8">
+      <Object frame="" ref="#8">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#8" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'#8')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#9">
+      <Object frame="" ref="#9">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#9" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'#9')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#1​0">
+      <Object frame="" ref="#1​0">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#1​0" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#1​0')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#1​01">
+      <Object frame="" ref="#1​01">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#1​0" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#1​0')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#62">
+      <Object frame="" ref="#62">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#6" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#6')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[6]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#1​1">
+      <Object frame="" ref="#1​1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#1​1" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#1​1')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#1​2">
+      <Object frame="" ref="#1​2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#1​2" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#1​2')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#1​21">
+      <Object frame="" ref="#1​21">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#1​2" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#1​2')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#1​3">
+      <Object frame="" ref="#1​3">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#1​3" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#1​3')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#1​4">
+      <Object frame="" ref="#1​4">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#1​4" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#1​4')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row.transitive single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="HTML Report1">
+      <Object frame="" ref="HTML Report1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="HTML Report" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'HTML Report')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[8]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #2 [Jenkins]" ref="CITS_Freestyle_Local1">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #2 Console [Jenkins]" ref="CITS_Freestyle_Local2">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local Config [Jenkins]" ref="CITS_Freestyle_Local3">
+    <ObjectGroup ref="General">
+      <Object frame="" ref="General">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='General'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/div/div/div/div[2]/div[3]/div/div)[1]" ref="xpath" pref="5"/>
+        <Property value="tab config-section-activator config_general active" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > div.jenkins-config-widgets > div.form-config.tabBarFrame > div.tabBar.config-section-activators > div.tab.config-section-activator config_general active" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.defaultValue">
+      <Object frame="" ref="parameter.defaultValue">
+        <Property value="parameter.defaultValue" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Projects\Project Name']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div/table/tbody/tr[6]/td[3]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general active > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen5 > table > tbody > tr:nth-of-type(5) > td.setting-main > input[name=&quot;parameter.defaultValue&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.description">
+      <Object frame="" ref="parameter.description">
+        <Property value="parameter.description" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//textarea[@name='parameter.description'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div/table/tbody/tr[9]/td[3]/textarea)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general active > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen5 > table > tbody > tr:nth-of-type(8) > td.setting-main > textarea[name=&quot;parameter.description&quot;]" ref="css" pref="7"/>
+        <Property value="textarea" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.defaultValue1">
+      <Object frame="" ref="parameter.defaultValue1">
+        <Property value="parameter.defaultValue" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[3]/table/tbody/tr[6]/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[3]/table/tbody/tr[6]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general active > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen9 > table > tbody > tr:nth-of-type(5) > td.setting-main > input[name=&quot;parameter.defaultValue&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.defaultValue2">
+      <Object frame="" ref="parameter.defaultValue2">
+        <Property value="parameter.defaultValue" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[4]/table/tbody/tr[6]/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[4]/table/tbody/tr[6]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general active > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen11 > table > tbody > tr:nth-of-type(5) > td.setting-main > input[name=&quot;parameter.defaultValue&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.defaultValue3">
+      <Object frame="" ref="parameter.defaultValue3">
+        <Property value="parameter.defaultValue" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[5]/table/tbody/tr[6]/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[5]/table/tbody/tr[6]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general active > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen13 > table > tbody > tr:nth-of-type(5) > td.setting-main > input[name=&quot;parameter.defaultValue&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.defaultValue4">
+      <Object frame="" ref="parameter.defaultValue4">
+        <Property value="parameter.defaultValue" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[5]/table/tbody/tr[6]/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[5]/table/tbody/tr[6]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen13 > table > tbody > tr:nth-of-type(5) > td.setting-main > input[name=&quot;parameter.defaultValue&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save">
+      <Object frame="" ref="Save">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen53-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[29]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen53-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add post-build action">
+      <Object frame="" ref="Add post-build action">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen29-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[26]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div[2]/span/span/button" ref="xpath" pref="5"/>
+        <Property value="hetero-list-add" ref="class" pref="6"/>
+        <Property value="#yui-gen29-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Publish HTML reports">
+      <Object frame="" ref="Publish HTML reports">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Publish HTML reports" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Publish HTML reports')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div[2]/div/div/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="yuimenuitemlabel yuimenuitemlabel-selected" ref="class" pref="6"/>
+        <Property value="a.yuimenuitemlabel.yuimenuitemlabel-selected" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add">
+      <Object frame="" ref="Add">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen65-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[26]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/span/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen65-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.reportFiles">
+      <Object frame="" ref="_.reportFiles">
+        <Property value="_.reportFiles" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='index.html']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr[4]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.reportFiles&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.reportDir">
+      <Object frame="" ref="_.reportDir">
+        <Property value="_.reportDir" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr/td[3]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.reportDir&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.reportTitles">
+      <Object frame="" ref="_.reportTitles">
+        <Property value="_.reportTitles" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div/table/tbody/tr[7]/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr[7]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.reportTitles&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Apply">
+      <Object frame="" ref="Apply">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen36-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[32]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span[2]/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen36-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save1">
+      <Object frame="" ref="Save1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen51-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[31]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[7]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen51-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.reportDir1">
+      <Object frame="" ref="_.reportDir1">
+        <Property value="_.reportDir" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='C:\Users\Shree Ganesh\.jenkins\workspace\CITS_Freestyle_Local\Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr/td[3]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.reportDir&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Publishing options...">
+      <Object frame="" ref="Publishing options...">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen38-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[26]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr[13]/td[3]/div/span[2]/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen38-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Apply1">
+      <Object frame="" ref="Apply1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen39-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[32]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span[2]/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen39-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save2">
+      <Object frame="" ref="Save2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen57-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[31]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[7]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen57-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="command">
+      <Object frame="" ref="command">
+        <Property value="command" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//textarea[@name='command'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[125]/td/div/div[2]/table/tbody/tr[3]/td[3]/textarea" ref="xpath" pref="5"/>
+        <Property value="setting-input fixed-width" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_build active > td > div.hetero-list-container.with-drag-drop > #yui-gen25 > table > tbody > tr:nth-of-type(2) > td.setting-main > textarea[name=&quot;command&quot;]" ref="css" pref="7"/>
+        <Property value="textarea" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.reportDir2">
+      <Object frame="" ref="_.reportDir2">
+        <Property value="_.reportDir" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login\Latest']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr/td[3]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.reportDir&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save3">
+      <Object frame="" ref="Save3">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen57-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[31]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen57-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="command1">
+      <Object frame="" ref="command1">
+        <Property value="command" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//textarea[@name='command'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[125]/td/div/div/table/tbody/tr[3]/td[3]/textarea)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input fixed-width" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_build active > td > div.hetero-list-container.with-drag-drop > #yui-gen23 > table > tbody > tr:nth-of-type(2) > td.setting-main > textarea[name=&quot;command&quot;]" ref="css" pref="7"/>
+        <Property value="textarea" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Delete">
+      <Object frame="" ref="Delete">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen48-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@title='Delete'])[6]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[6]/table/tbody/tr[16]/td/div/span/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen48-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Apply2">
+      <Object frame="" ref="Apply2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen39-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[31]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span[2]/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen39-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save4">
+      <Object frame="" ref="Save4">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen57-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[30]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[7]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen57-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.reportDir3">
+      <Object frame="" ref="_.reportDir3">
+        <Property value="_.reportDir" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Projects\SampleProject\Results\TestDesign\%Release_R_Scenario%\%TestSet_R_TestCase%\Latest']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr/td[3]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.reportDir&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Apply3">
+      <Object frame="" ref="Apply3">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen37-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[31]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span[2]/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen37-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save5">
+      <Object frame="" ref="Save5">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen54-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[30]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[7]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen54-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Delete1">
+      <Object frame="" ref="Delete1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen51-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@title='Delete'])[8]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[6]/td/div/span/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen51-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save6">
+      <Object frame="" ref="Save6">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen54-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[26]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen54-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add Parameter">
+      <Object frame="" ref="Add Parameter">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen15-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[10]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[7]/span/span/button" ref="xpath" pref="5"/>
+        <Property value="hetero-list-add" ref="class" pref="6"/>
+        <Property value="#yui-gen15-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="String Parameter">
+      <Object frame="" ref="String Parameter">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="String Parameter" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'String Parameter')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[7]/div/div/ul/li[8]/a" ref="xpath" pref="5"/>
+        <Property value="yuimenuitemlabel yuimenuitemlabel-selected" ref="class" pref="6"/>
+        <Property value="a.yuimenuitemlabel.yuimenuitemlabel-selected" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.name">
+      <Object frame="" ref="parameter.name">
+        <Property value="parameter.name" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[6]/table/tbody/tr[3]/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[6]/table/tbody/tr[3]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen58 > table > tbody > tr:nth-of-type(2) > td.setting-main > input[name=&quot;parameter.name&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.description1">
+      <Object frame="" ref="parameter.description1">
+        <Property value="parameter.description" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//textarea[@name='parameter.description'])[6]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[6]/table/tbody/tr[9]/td[3]/textarea" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen58 > table > tbody > tr:nth-of-type(8) > td.setting-main > textarea[name=&quot;parameter.description&quot;]" ref="css" pref="7"/>
+        <Property value="textarea" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="parameter.defaultValue5">
+      <Object frame="" ref="parameter.defaultValue5">
+        <Property value="parameter.defaultValue" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[6]/table/tbody/tr[6]/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[31]/td[2]/div/div[6]/table/tbody/tr[6]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row.config_general > td:nth-of-type(1) > div.hetero-list-container.with-drag-drop > #yui-gen58 > table > tbody > tr:nth-of-type(5) > td.setting-main > input[name=&quot;parameter.defaultValue&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="command2">
+      <Object frame="" ref="command2">
+        <Property value="command" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//textarea[@name='command'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[125]/td/div/div/table/tbody/tr[3]/td[3]/textarea)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input fixed-width" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.container > div.row > div.col-md-offset-2.col-md-20 > form[name=&quot;config&quot;] > table.config-table.scrollspy > tbody > tr.config-table-top-row > td > div.hetero-list-container.with-drag-drop > #yui-gen21 > table > tbody > tr:nth-of-type(2) > td.setting-main > textarea[name=&quot;command&quot;]" ref="css" pref="7"/>
+        <Property value="textarea" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save7">
+      <Object frame="" ref="Save7">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen48-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[27]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen48-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save8">
+      <Object frame="" ref="Save8">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen59-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[33]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen59-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.reportDir4">
+      <Object frame="" ref="_.reportDir4">
+        <Property value="_.reportDir" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='${ProjectLocation}\Results\${ExecutionMode}\${Release_R_Scenario}\${TestSet_R_TestCase}\Latest']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr/td[3]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.reportDir&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.reportFiles1">
+      <Object frame="" ref="_.reportFiles1">
+        <Property value="_.reportFiles" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='summary.html,console.txt']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/div/form/table/tbody/tr[127]/td/div/div/table/tbody/tr[3]/td[3]/div/div/table/tbody/tr[4]/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.reportFiles&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Jenkins">
+      <Object frame="" ref="Jenkins">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Jenkins" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Jenkins')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div[2]/div[2]/div[2]/ul/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Jenkins" ref="Jenkins">
+    <ObjectGroup ref="value">
+      <Object frame="" ref="value">
+        <Property value="value" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Projects\Project Name']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div[2]/form/table/tbody/tr/td[3]/div/input[2])[1]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > form[name=&quot;parameters&quot;] > table.parameters > tbody > tr > td.setting-main > div[name=&quot;parameter&quot;] > input[name=&quot;value&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="value1">
+      <Object frame="" ref="value1">
+        <Property value="value" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//tbody[3]/tr/td[3]/div/input[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/table/tbody[3]/tr/td[3]/div/input[2]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > form[name=&quot;parameters&quot;] > table.parameters > tbody:nth-of-type(2) > tr > td.setting-main > div[name=&quot;parameter&quot;] > input[name=&quot;value&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="value2">
+      <Object frame="" ref="value2">
+        <Property value="value" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//tbody[4]/tr/td[3]/div/input[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/table/tbody[4]/tr/td[3]/div/input[2]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > form[name=&quot;parameters&quot;] > table.parameters > tbody:nth-of-type(3) > tr > td.setting-main > div[name=&quot;parameter&quot;] > input[name=&quot;value&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="value3">
+      <Object frame="" ref="value3">
+        <Property value="value" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//tbody[5]/tr/td[3]/div/input[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/table/tbody[5]/tr/td[3]/div/input[2]" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > form[name=&quot;parameters&quot;] > table.parameters > tbody:nth-of-type(4) > tr > td.setting-main > div[name=&quot;parameter&quot;] > input[name=&quot;value&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Build">
+      <Object frame="" ref="Build">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen5-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[5]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/table/tbody[7]/tr/td/span/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen5-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Configure">
+      <Object frame="" ref="Configure">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Configure" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Configure')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[7]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Build1">
+      <Object frame="" ref="Build1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen3-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/table/tbody[7]/tr/td/span/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen3-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Build2">
+      <Object frame="" ref="Build2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen3-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/table/tbody[6]/tr/td/span/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen3-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Object">
+      <Object frame="" ref="Object">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div/textarea" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/div/div/textarea" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="div > textarea" ref="css" pref="7"/>
+        <Property value="textarea" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="1System.setProperty(&quot;hudson.mo">
+      <Object frame="" ref="1System.setProperty(&quot;hudson.mo">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//form/div/div[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/div/div[3]" ref="xpath" pref="5"/>
+        <Property value="CodeMirror-scroll cm-s-default" ref="class" pref="6"/>
+        <Property value="div.CodeMirror-scroll.cm-s-default" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Run">
+      <Object frame="" ref="Run">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen3-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/div[2]/span/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen3-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Jenkins">
+      <Object frame="" ref="Jenkins">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Jenkins" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Jenkins')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #3 [Jenkins]" ref="CITS_Freestyle_Local4">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #3 Console [Jenkins]" ref="CITS_Freestyle_Local5">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #4 [Jenkins]" ref="CITS_Freestyle_Local6">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #4 Console [Jenkins]" ref="CITS_Freestyle_Local7">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Manage Jenkins [Jenkins]" ref="Manage">
+    <ObjectGroup ref="Manage Plugins">
+      <Object frame="" ref="Manage Plugins">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Manage Plugins']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[7]/a/dl/dt" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="a[title=&quot;Manage Plugins&quot;] > dl > dt" ref="css" pref="7"/>
+        <Property value="dt" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add, remove, disable or enable">
+      <Object frame="" ref="Add, remove, disable or enable">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div[4]/div[2]/div[7]/a/dl/dd" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div[2]/div[7]/a/dl/dd)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.manage-option > a[title=&quot;Manage Plugins&quot;] > dl > dd" ref="css" pref="7"/>
+        <Property value="dd" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Script Console">
+      <Object frame="" ref="Script Console">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Script Console']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[12]/a/dl/dt" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="a[title=&quot;Script Console&quot;] > dl > dt" ref="css" pref="7"/>
+        <Property value="dt" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Update Center [Jenkins]" ref="Update">
+    <ObjectGroup ref="Available">
+      <Object frame="" ref="Available">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Available" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Available')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/div/div/div[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > form > div.tabBarFrame. > div.tabBar > div.tab > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="filter-box">
+      <Object frame="" ref="filter-box">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="filter-box" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@type='text']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#filter-box" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="plugin.greenballs.default">
+      <Object frame="" ref="plugin.greenballs.default">
+        <Property value="plugin.greenballs.default" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='plugin.greenballs.default']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/div[2]/table/tbody/tr[2034]/td/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="input[name=&quot;plugin.greenballs.default&quot;]" ref="css" pref="7"/>
+        <Property value="checkbox" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Install without restart">
+      <Object frame="" ref="Install without restart">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen3-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div[2]/form/div[4]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen3-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Update Center">
+      <Object frame="" ref="Update Center">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Update Center" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Update Center')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Jenkins">
+      <Object frame="" ref="Jenkins">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Jenkins" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Jenkins')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[2]/div[2]/div[2]/div[2]/ul/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Installed">
+      <Object frame="" ref="Installed">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Installed" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Installed')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/div/div/div[3]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > form > div.tabBarFrame. > div.tabBar > div.tab > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Available1">
+      <Object frame="" ref="Available1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Available" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Available')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[2]/div/div[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.tabBarFrame. > div.tabBar > div.tab > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="plugin.htmlpublisher.default">
+      <Object frame="" ref="plugin.htmlpublisher.default">
+        <Property value="plugin.htmlpublisher.default" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='plugin.htmlpublisher.default']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/form/div[2]/table/tbody/tr[354]/td/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="input[name=&quot;plugin.htmlpublisher.default&quot;]" ref="css" pref="7"/>
+        <Property value="checkbox" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="HTML Publisher plugin">
+      <Object frame="" ref="HTML Publisher plugin">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="HTML Publisher plugin" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'HTML Publisher plugin')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div[2]/div[3]/table/tbody/tr[21]/td[2]/div/a" ref="xpath" pref="5"/>
+        <Property value="display-name" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #main-panel > div.pane-frame > #plugins > tbody > tr.plugin. all-dependants-disabled > td.pane.details > div > a.display-name" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #5 [Jenkins]" ref="CITS_Freestyle_Local8">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #5 Console [Jenkins]" ref="CITS_Freestyle_Local9">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Watch Kedarnath (2018) Hindi Full Movie Online Free - 123MovieRulz" ref="Watch">
+    <ObjectGroup ref="fa fa-play-circle-o">
+      <Object frame="" ref="fa fa-play-circle-o">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div/a/i" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[4]/div/article/div[2]/div[3]/div/a/i" ref="xpath" pref="5"/>
+        <Property value="fa fa-play-circle-o" ref="class" pref="6"/>
+        <Property value="a.play_action > i.fa.fa-play-circle-o" ref="css" pref="7"/>
+        <Property value="i" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Page" ref="Page">
+    <ObjectGroup ref="Play Video">
+      <Object frame="" ref="Play Video">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@title='Play Video']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[4]/button" ref="xpath" pref="5"/>
+        <Property value="vjs-big-play-button" ref="class" pref="6"/>
+        <Property value="button.vjs-big-play-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="vjs-menu-content">
+      <Object frame="" ref="vjs-menu-content">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[8]/div/ul" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[4]/div[7]/div[8]/div/ul" ref="xpath" pref="5"/>
+        <Property value="vjs-menu-content" ref="class" pref="6"/>
+        <Property value="html > body > #mediaspace_wrapper > div.videocontainer > #olvideo > div.vjs-control-bar > div.vjs-captions-button.vjs-menu-button vjs-menu-button-popup vjs-control vjs-button > div.vjs-menu > ul.vjs-menu-content" ref="css" pref="7"/>
+        <Property value="ul" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="vjs-mouse-display">
+      <Object frame="" ref="vjs-mouse-display">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[5]/div/div[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[4]/div[7]/div[5]/div/div[2]" ref="xpath" pref="5"/>
+        <Property value="vjs-mouse-display" ref="class" pref="6"/>
+        <Property value="div.vjs-mouse-display" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Loaded: 0%Progress: 0%">
+      <Object frame="" ref="Loaded: 0%Progress: 0%">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[@aria-valuenow='59.88']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[4]/div[7]/div[5]/div" ref="xpath" pref="5"/>
+        <Property value="vjs-progress-holder vjs-slider vjs-slider-horizontal" ref="class" pref="6"/>
+        <Property value="html > body > #mediaspace_wrapper > div.videocontainer > #olvideo > div.vjs-control-bar > div.vjs-progress-control.vjs-control > div.vjs-progress-holder.vjs-slider vjs-slider-horizontal" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Pause">
+      <Object frame="" ref="Pause">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@title='Pause']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[4]/div[7]/button)[1]" ref="xpath" pref="5"/>
+        <Property value="vjs-play-control vjs-control vjs-button vjs-playing" ref="class" pref="6"/>
+        <Property value="html > body > #mediaspace_wrapper > div.videocontainer > #olvideo > div.vjs-control-bar > button.vjs-play-control.vjs-control vjs-button vjs-playing" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Play">
+      <Object frame="" ref="Play">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@title='Play']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[4]/div[7]/button)[1]" ref="xpath" pref="5"/>
+        <Property value="vjs-play-control vjs-control vjs-button vjs-paused" ref="class" pref="6"/>
+        <Property value="html > body > #mediaspace_wrapper > div.videocontainer > #olvideo > div.vjs-control-bar > button.vjs-play-control.vjs-control vjs-button vjs-paused" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Back to #12">
+      <Object frame="" ref="Back to #12">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="hudson_link" ref="id" pref="2"/>
+        <Property value="Back to #12" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Back to #12')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/h1/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#hudson_link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Back to #13">
+      <Object frame="" ref="Back to #13">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="hudson_link" ref="id" pref="2"/>
+        <Property value="Back to #13" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Back to #13')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/h1/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#hudson_link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Back to CITS_Freestyle_Local">
+      <Object frame="" ref="Back to CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="hudson_link" ref="id" pref="2"/>
+        <Property value="Back to CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Back to CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/h1/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#hudson_link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Fullscreen">
+      <Object frame="" ref="Fullscreen">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@title='Fullscreen']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[4]/div[7]/button[3]" ref="xpath" pref="5"/>
+        <Property value="vjs-fullscreen-control vjs-control vjs-button" ref="class" pref="6"/>
+        <Property value="html > body > #mediaspace_wrapper > div.videocontainer > #olvideo > div.vjs-control-bar > button.vjs-fullscreen-control.vjs-control vjs-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #6 [Jenkins]" ref="CITS_Freestyle_Local10">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #6 Console [Jenkins]" ref="CITS_Freestyle_Local11">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #7 [Jenkins]" ref="CITS_Freestyle_Local12">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Google" ref="Google">
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="q" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Search']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[3]/form/div[2]/div/div/div/div/input" ref="xpath" pref="5"/>
+        <Property value="gLFyf gsfi" ref="class" pref="6"/>
+        <Property value="input[name=&quot;q&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Google Search">
+      <Object frame="" ref="Google Search">
+        <Property value="btnK" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//input[@value='Google Search'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[3]/form/div[2]/div/div[2]/div[2]/div/center/input)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="div.aajZCb > div.VlcLAe > center > input[name=&quot;btnK&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #7 Console [Jenkins]" ref="CITS_Freestyle_Local13">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #8 [Jenkins]" ref="CITS_Freestyle_Local14">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #8 Console [Jenkins]" ref="CITS_Freestyle_Local15">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #9 [Jenkins]" ref="CITS_Freestyle_Local16">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #9 Console [Jenkins]" ref="CITS_Freestyle_Local17">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #10 [Jenkins]" ref="CITS_Freestyle_Local18">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #10 Console [Jenkins]" ref="CITS_Freestyle_Local19">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #11 [Jenkins]" ref="CITS_Freestyle_Local20">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #11 Console [Jenkins]" ref="CITS_Freestyle_Local21">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #12 [Jenkins]" ref="CITS_Freestyle_Local22">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="HTML Report">
+      <Object frame="" ref="HTML Report">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="HTML Report" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'HTML Report')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[8]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #12 Console [Jenkins]" ref="CITS_Freestyle_Local23">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #13 [Jenkins]" ref="CITS_Freestyle_Local24">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="HTML Report">
+      <Object frame="" ref="HTML Report">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="HTML Report" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'HTML Report')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[8]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #13 Console [Jenkins]" ref="CITS_Freestyle_Local25">
+    <ObjectGroup ref="#13">
+      <Object frame="" ref="#13">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#13" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#13')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[5]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="how to pass parameter in path of html dirctory to archive in jenkins - Google Search" ref="how">
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="q" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Search']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/form/div[2]/div/div[2]/div/div/input" ref="xpath" pref="5"/>
+        <Property value="gLFyf gsfi" ref="class" pref="6"/>
+        <Property value="div.a4bIc > input[name=&quot;q&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #14 [Jenkins]" ref="CITS_Freestyle_Local26">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Local #14 Console [Jenkins]" ref="CITS_Freestyle_Local27">
+    <ObjectGroup ref="CITS_Freestyle_Local">
+      <Object frame="" ref="CITS_Freestyle_Local">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Local" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Local')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="New Item [Jenkins]" ref="New">
+    <ObjectGroup ref="Enter an item name">
+      <Object frame="" ref="Enter an item name">
+        <Property value="name" ref="name" pref="1"/>
+        <Property value="name" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='name']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div/div/div/form/div/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#name" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="j-item-options">
+      <Object frame="" ref="j-item-options">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/div[4]/div/div/div/div/form/div[2]/div/ul" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div/div/div/form/div[2]/div/ul)[1]" ref="xpath" pref="5"/>
+        <Property value="j-item-options" ref="class" pref="6"/>
+        <Property value="#j-add-item-type-standalone-projects > ul.j-item-options" ref="css" pref="7"/>
+        <Property value="ul" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="OK">
+      <Object frame="" ref="OK">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="ok-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@type='submit']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div/div/form/div[4]/div/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#ok-button" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Git Config [Jenkins]" ref="CITS_Freestyle_Git">
+    <ObjectGroup ref="description">
+      <Object frame="" ref="description">
+        <Property value="description" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//textarea[@name='description']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/div/form/table/tbody/tr[2]/td[3]/textarea" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="textarea[name=&quot;description&quot;]" ref="css" pref="7"/>
+        <Property value="textarea" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="scm">
+      <Object frame="" ref="scm">
+        <Property value="scm" ref="name" pref="1"/>
+        <Property value="radio-block-1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//input[@value='1'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/div/form/table/tbody/tr[63]/td/label/input" ref="xpath" pref="5"/>
+        <Property value="radio-block-control block-control jenkins-loaded-1544969316267 disable-behavior" ref="class" pref="6"/>
+        <Property value="#radio-block-1" ref="css" pref="7"/>
+        <Property value="radio" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.url">
+      <Object frame="" ref="_.url">
+        <Property value="_.url" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//tr[65]/td[3]/div/div/table/tbody/tr/td[3]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/div/form/table/tbody/tr[65]/td[3]/div/div/table/tbody/tr/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input validated" ref="class" pref="6"/>
+        <Property value="input[name=&quot;_.url&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="_.name">
+      <Object frame="" ref="_.name">
+        <Property value="_.name" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='*/master']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/div/form/table/tbody/tr[68]/td[3]/div/div/table/tbody/tr/td[3]/input" ref="xpath" pref="5"/>
+        <Property value="setting-input" ref="class" pref="6"/>
+        <Property value="div[name=&quot;branches&quot;] > table > tbody > tr > td.setting-main > input[name=&quot;_.name&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add post-build action">
+      <Object frame="" ref="Add post-build action">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen13-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[16]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/div/form/table/tbody/tr[127]/td/div/div[2]/span/span/button" ref="xpath" pref="5"/>
+        <Property value="hetero-list-add" ref="class" pref="6"/>
+        <Property value="#yui-gen13-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Publish HTML reports">
+      <Object frame="" ref="Publish HTML reports">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Publish HTML reports" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Publish HTML reports')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/div/form/table/tbody/tr[127]/td/div/div[2]/div/div/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="yuimenuitemlabel yuimenuitemlabel-selected" ref="class" pref="6"/>
+        <Property value="a.yuimenuitemlabel.yuimenuitemlabel-selected" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CITS_Freestyle_Git">
+      <Object frame="" ref="CITS_Freestyle_Git">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Git" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Git')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save">
+      <Object frame="" ref="Save">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen25-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[17]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[5]/div/div/div/div/form/table/tbody/tr[128]/td/div[2]/div[2]/span/span/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen25-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Advanced...">
+      <Object frame="" ref="Advanced...">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="yui-gen17-button" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[8]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/div/form/table/tbody/tr[65]/td[3]/div/div/table/tbody/tr[6]/td[3]/div/span[2]/span/button" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#yui-gen17-button" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="The world’s leading software development platform · GitHub" ref="The">
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Sign in" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Sign in')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/header/div/div[2]/div[2]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="HeaderMenu-link no-underline mr-3" ref="class" pref="6"/>
+        <Property value="html > body.logged-out.env-production page-responsive min-width-0 f4 intent-mouse > div.position-relative.js-header-wrapper > header.Header.header-logged-out js-details-container Details position-relative f4 py-3 > div.container-lg.d-lg-flex flex-items-center p-responsive > div.HeaderMenu.HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto > div.d-lg-flex.flex-items-center px-3 px-lg-0 text-center text-lg-left > a.HeaderMenu-link.no-underline mr-3" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Sign in to GitHub · GitHub" ref="Sign1">
+    <ObjectGroup ref="Username or email address">
+      <Object frame="" ref="Username or email address">
+        <Property value="login" ref="name" pref="1"/>
+        <Property value="login_field" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='login']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/div/form/div[3]/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control input-block" ref="class" pref="6"/>
+        <Property value="#login_field" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password Forgot password?">
+      <Object frame="" ref="Password Forgot password?">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div/div/form/div[3]/input[2]" ref="xpath" pref="5"/>
+        <Property value="form-control form-control input-block" ref="class" pref="6"/>
+        <Property value="#password" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="commit" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Sign in']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div/div/form/div[3]/input[3]" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary btn-block" ref="class" pref="6"/>
+        <Property value="input[name=&quot;commit&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="GitHub" ref="GitHub">
+    <ObjectGroup ref="CI-CD-Integration">
+      <Object frame="" ref="CI-CD-Integration">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[@title='CI-CD-Integration']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div/div/div/div[2]/ul/li/div/a/span[2])[1]" ref="xpath" pref="5"/>
+        <Property value="css-truncate css-truncate-target" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production page-dashboard intent-mouse > div.application-main. > #js-pjax-container > div.container > #dashboard > div.dashboard-sidebar.column one-third pr-5 pt-3 > div.Box.Box--condensed Details js-repos-container my-3 > div.Box-body > ul.list-style-none > li.public.source > div.width-full.text-bold > a.d-inline-flex.flex-items-baseline f5 mb-2 dashboard-underlined-link width-fit > span.css-truncate.css-truncate-target" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="supriyaCICD">
+      <Object frame="" ref="supriyaCICD">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[@title='supriyaCICD']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div/div/div/div[2]/ul/li[2]/div/a/span)[1]" ref="xpath" pref="5"/>
+        <Property value="flex-shrink-0 css-truncate css-truncate-target" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production page-dashboard intent-mouse > div.application-main. > #js-pjax-container > div.container > #dashboard > div.dashboard-sidebar.column one-third pr-5 pt-3 > div.Box.Box--condensed Details js-repos-container my-3 > div.Box-body > ul.list-style-none > li.public.source > div.width-full.text-bold > a.d-inline-flex.flex-items-baseline f5 mb-2 dashboard-underlined-link width-fit > span.flex-shrink-0.css-truncate css-truncate-target" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="snehaCICD">
+      <Object frame="" ref="snehaCICD">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[@title='snehaCICD']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div/div/div/div[2]/ul/li/div/a/span)[1]" ref="xpath" pref="5"/>
+        <Property value="flex-shrink-0 css-truncate css-truncate-target" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production page-dashboard intent-mouse > div.application-main. > #js-pjax-container > div.container > #dashboard > div.dashboard-sidebar.column one-third pr-5 pt-3 > div.Box.Box--condensed Details js-repos-container my-3 > div.Box-body > ul.list-style-none > li.public.source > div.width-full.text-bold > a.d-inline-flex.flex-items-baseline f5 mb-2 dashboard-underlined-link width-fit > span.flex-shrink-0.css-truncate css-truncate-target" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="supriyaCICD/Git_Jenkins_Int" ref="supriyaCICD_Git_Jenkins_Int">
+    <ObjectGroup ref="supriyaCICD">
+      <Object frame="" ref="supriyaCICD">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="supriyaCICD" ref="link_text" pref="3"/>
+        <Property value="//a[@data-hovercard-type='user']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div/div/h1/span/a" ref="xpath" pref="5"/>
+        <Property value="url fn" ref="class" pref="6"/>
+        <Property value="a.url.fn" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="snehaCICD/CI-CD-Integration: Demo Project of CI/CD" ref="snehaCICD_CI-CD-Integration_">
+    <ObjectGroup ref="Branch: master">
+      <Object frame="" ref="Branch: master">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[2]/div/div[4]/div/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-sm select-menu-button js-menu-target css-truncate" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production intent-mouse > div.application-main. > div > #js-repo-pjax-container > div.container.new-discussion-timeline experiment-repo-nav > div.repository-content. > div.file-navigation.in-mid-page d-flex flex-items-start > div.select-menu.branch-select-menu js-menu-container js-select-menu float-left > button.btn btn-sm select-menu-button js-menu-target css-truncate" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CITSBranch">
+      <Object frame="" ref="CITSBranch">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='CITSBranch']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[2]/div/div[4]/div/div/div/tab-container/div[2]/div/a[2]/span" ref="xpath" pref="5"/>
+        <Property value="select-menu-item-text css-truncate-target js-select-menu-filter-text" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production intent-mouse menu-active > div.application-main. > div > #js-repo-pjax-container > div.container.new-discussion-timeline experiment-repo-nav > div.repository-content. > div.file-navigation.in-mid-page d-flex flex-items-start > div.select-menu.branch-select-menu js-menu-container js-select-menu float-left is-dirty js-transitionable active > div.select-menu-modal-holder.js-menu-content js-navigation-container js-active-navigation-container > div.select-menu-modal > tab-container > div.select-menu-list > div > a.select-menu-item.js-navigation-item js-navigation-open navigation-focus > span.select-menu-item-text.css-truncate-target js-select-menu-filter-text" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="snehaCICD/CI-CD-Integration at CITSBranch" ref="snehaCICD_CI-CD-Integration">
+    <ObjectGroup ref="snehaCICD">
+      <Object frame="" ref="snehaCICD">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="snehaCICD" ref="link_text" pref="3"/>
+        <Property value="//a[@data-hovercard-type='user']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div/div/h1/span/a" ref="xpath" pref="5"/>
+        <Property value="url fn" ref="class" pref="6"/>
+        <Property value="a.url.fn" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="snehaCICD" ref="snehaCICD">
+    <ObjectGroup ref="CITSIntegration">
+      <Object frame="" ref="CITSIntegration">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[@title='CITSIntegration']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[2]/div[3]/div/div/ol/li[2]/span/span/a/span" ref="xpath" pref="5"/>
+        <Property value="repo js-repo" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production page-profile intent-mouse > div.application-main. > #js-pjax-container > div.container-lg.clearfix px-3 mt-4 > div.col-9.float-left pl-2 > div.position-relative > div.mt-4 > div.js-pinned-repos-reorder-container > ol.pinned-repos-list.mb-4 > li.pinned-repo-item.p-3 mb-3 border border-gray-dark rounded-1 public source > span.pinned-repo-item-content > span.d-block > a.text-bold > span.repo.js-repo" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Repositories 2">
+      <Object frame="" ref="Repositories 2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Repositories 2" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Repositories 2')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[2]/div[2]/nav/a[2]" ref="xpath" pref="5"/>
+        <Property value="UnderlineNav-item" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production page-profile intent-mouse > div.application-main. > #js-pjax-container > div.container-lg.clearfix px-3 mt-4 > div.col-9.float-left pl-2 > div.UnderlineNav.user-profile-nav js-sticky top-0 > nav.UnderlineNav-body > a.UnderlineNav-item." ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="snehaCICD/CITSIntegration" ref="snehaCICD_CITSIntegration">
+    <ObjectGroup ref="Branch: master">
+      <Object frame="" ref="Branch: master">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='button'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[2]/div/div[4]/div/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-sm select-menu-button js-menu-target css-truncate" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production intent-mouse > div.application-main. > div > #js-repo-pjax-container > div.container.new-discussion-timeline experiment-repo-nav > div.repository-content. > div.file-navigation.in-mid-page d-flex flex-items-start > div.select-menu.branch-select-menu js-menu-container js-select-menu float-left > button.btn btn-sm select-menu-button js-menu-target css-truncate" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="TestCITS">
+      <Object frame="" ref="TestCITS">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='TestCITS']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div/div[2]/div/div[4]/div/div/div/tab-container/div[2]/div/a/span)[1]" ref="xpath" pref="5"/>
+        <Property value="select-menu-item-text css-truncate-target js-select-menu-filter-text" ref="class" pref="6"/>
+        <Property value="html > body.logged-in.env-production intent-mouse menu-active > div.application-main. > div > #js-repo-pjax-container > div.container.new-discussion-timeline experiment-repo-nav > div.repository-content. > div.file-navigation.in-mid-page d-flex flex-items-start > div.select-menu.branch-select-menu js-menu-container js-select-menu float-left is-dirty js-transitionable active > div.select-menu-modal-holder.js-menu-content js-navigation-container js-active-navigation-container > div.select-menu-modal > tab-container > div.select-menu-list > div > a.select-menu-item.js-navigation-item js-navigation-open navigation-focus > span.select-menu-item-text.css-truncate-target js-select-menu-filter-text" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Git [Jenkins]" ref="CITS_Freestyle_Git1">
+    <ObjectGroup ref="Build Now">
+      <Object frame="" ref="Build Now">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Build Now" ref="link_text" pref="3"/>
+        <Property value="(//a[@onclick='return build_id562(this)'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[5]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="#1">
+      <Object frame="" ref="#1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="#1" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'#1')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[4]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="tip model-link inside build-link display-name zws-inserted" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #buildHistoryPage > #buildHistory > div.row.pane-content > table.pane.stripped > tbody > tr.build-row. single-line overflow-checked > td.build-row-cell > div.pane.build-name > a.tip.model-link inside build-link display-name zws-inserted" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Configure">
+      <Object frame="" ref="Configure">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Configure" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Configure')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[7]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Git #1 [Jenkins]" ref="CITS_Freestyle_Git2">
+    <ObjectGroup ref="Console Output">
+      <Object frame="" ref="Console Output">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Console Output" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Console Output')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[4]/a[2]" ref="xpath" pref="5"/>
+        <Property value="task-link" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-body > #side-panel > #tasks > div.task > a.task-link" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="CITS_Freestyle_Git #1 Console [Jenkins]" ref="CITS_Freestyle_Git3">
+    <ObjectGroup ref="CITS_Freestyle_Git">
+      <Object frame="" ref="CITS_Freestyle_Git">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="CITS_Freestyle_Git" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'CITS_Freestyle_Git')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[2]/div[2]/div[2]/div[2]/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="model-link inside breadcrumbBarAnchor" ref="class" pref="6"/>
+        <Property value="html > #jenkins > #page-head > #breadcrumbBar > div.top-sticker.noedge > div.top-sticker-inner > #breadcrumbs > li.item > a.model-link.inside breadcrumbBarAnchor" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="snehaCICD/CITSIntegration at TestCITS" ref="snehaCICD_CITSIntegration1">
+    <ObjectGroup ref="snehaCICD">
+      <Object frame="" ref="snehaCICD">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="snehaCICD" ref="link_text" pref="3"/>
+        <Property value="(//a[@data-hovercard-type='user'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div/div/h1/span/a" ref="xpath" pref="5"/>
+        <Property value="url fn" ref="class" pref="6"/>
+        <Property value="a.url.fn" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="supriyaCICD" ref="supriyaCICD">
+    <ObjectGroup ref="Git_Jenkins_Int">
+      <Object frame="" ref="Git_Jenkins_Int">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[@title='Git_Jenkins_Int']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div[2]/div[3]/div/div/ol/li/span/span/a/span" ref="xpath" pref="5"/>
+        <Property value="repo js-repo" ref="class" pref="6"/>
+        <Property value="span.repo.js-repo" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

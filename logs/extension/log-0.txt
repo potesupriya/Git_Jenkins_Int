@@ -1,0 +1,82 @@
+2018-12-16 17:51:33:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-16 17:51:33:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:52:28:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-16 17:52:28:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:52:28:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-16 17:52:28:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-12-16 17:52:39:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2018-12-16 17:52:39:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:52:39:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-16 17:52:39:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-12-16 17:53:07:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-16 17:53:07:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:53:07:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-16 17:53:07:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-12-16 17:53:53:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-16 17:53:53:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:53:53:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-16 17:53:53:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped

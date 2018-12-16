@@ -1,0 +1,1335 @@
+2018-12-16 17:42:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2018-12-16 17:42:38:12S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in F:\ING_Work\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2018-12-16 17:42:47:12S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2018-12-16 17:49:44:12S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [F:\ING_Work\cognizant-intelligent-test-scripter-1.1\Projects\SampleProject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2018-12-16 17:49:44:12S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [F:\ING_Work\cognizant-intelligent-test-scripter-1.1\Projects\SampleProject\TestLab\NewRelease\NewTestSet.csv] doesn't exist
+2018-12-16 17:51:03:12S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:F:\ING_Work\cognizant-intelligent-test-scripter-1.1\Projects\SampleProject\TestPlan\NewScenario Renamed to Spritz_Webpage
+2018-12-16 17:51:03:12S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [Spritz_Webpage]
+2018-12-16 17:51:03:12S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [F:\ING_Work\cognizant-intelligent-test-scripter-1.1\Projects\SampleProject\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2018-12-16 17:51:03:12S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [Spritz_Webpage]
+2018-12-16 17:51:12:12S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:F:\ING_Work\cognizant-intelligent-test-scripter-1.1\Projects\SampleProject\TestPlan\Spritz_Webpage\NewTestCase.csv Renamed to Login.csv
+2018-12-16 17:51:12:12S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [Login]
+2018-12-16 17:51:12:12S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [F:\ING_Work\cognizant-intelligent-test-scripter-1.1\Projects\SampleProject\TestPlan\Spritz_Webpage\NewTestCase.csv] doesn't exist
+2018-12-16 17:51:12:12S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [Login]
+2018-12-16 17:51:32:653 +0530 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.util.log - Logging initialized @539705ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/F:/ING_Work/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-16 17:51:33:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-16 17:51:33:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:51:33:449 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2018-12-16 17:51:33:888 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-16 17:51:33:889 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-16 17:51:33:913 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-12-16 17:51:34:032 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@d00e2e{/,null,AVAILABLE}
+2018-12-16 17:51:34:419 +0530 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@77d7ad14(localhost,h=[localhost],w=[]) for SslContextFactory@18cec358(jar:file:/F:/ING_Work/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2018-12-16 17:51:35:987 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@30c1ceaf{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2018-12-16 17:51:35:992 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @543051ms
+jar:file:/F:/ING_Work/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-16 17:52:28:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-16 17:52:28:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:52:28:887 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2018-12-16 17:52:28:904 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-16 17:52:28:906 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-16 17:52:28:907 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-12-16 17:52:28:913 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2a537f8f{/,null,AVAILABLE}
+2018-12-16 17:52:28:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-16 17:52:28:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/F:/ING_Work/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-16 17:52:39:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2018-12-16 17:52:39:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:52:39:875 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2018-12-16 17:52:39:882 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-16 17:52:39:883 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-16 17:52:39:884 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-12-16 17:52:39:889 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@678a6cae{/,null,AVAILABLE}
+2018-12-16 17:52:39:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-16 17:52:39:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/F:/ING_Work/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-16 17:53:07:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-16 17:53:07:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:53:07:369 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2018-12-16 17:53:07:375 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-16 17:53:07:376 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-16 17:53:07:377 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-12-16 17:53:07:394 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6aa7a869{/,null,AVAILABLE}
+2018-12-16 17:53:07:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-16 17:53:07:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-12-16 17:53:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : ×
+2018-12-16 17:53:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[×] - Click - null
+2018-12-16 17:53:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Logout
+2018-12-16 17:53:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Logout] - Click - null
+jar:file:/F:/ING_Work/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-16 17:53:53:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-16 17:53:53:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-16 17:53:53:448 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2018-12-16 17:53:53:452 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-16 17:53:53:453 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-16 17:53:53:453 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-12-16 17:53:53:456 +0530 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@c040aa8{/,null,AVAILABLE}
+2018-12-16 17:53:53:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-16 17:53:53:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-12-16 17:54:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @https://spritz.cognizant.com/login.php
+2018-12-16 17:54:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : User ID :
+2018-12-16 17:54:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[User ID :] - Click - null
+2018-12-16 17:54:05:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : User ID :
+2018-12-16 17:54:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[User ID :] - Set - @587/9466
+2018-12-16 17:54:05:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : User ID :
+2018-12-16 17:54:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[User ID :] - Set - @587/9466
+2018-12-16 17:54:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Password :
+2018-12-16 17:54:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password :] - setEncrypted - @65+8+8+
+2018-12-16 17:54:09:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : Password :
+2018-12-16 17:54:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password :] - setEncrypted - @65+8+8+
+2018-12-16 17:54:11:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Login
+2018-12-16 17:54:11:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Login] - Click - null
+2018-12-16 17:54:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Invalid username and password
+2018-12-16 17:54:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Invalid username and password] - assertElementTextEquals - @Invalid username and password
+2018-12-16 17:54:42:12S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in F:\ING_Work\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2018-12-16 17:54:42:944 +0530 [Thread-50] [WARN] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+2018-12-16 17:55:18:635 +0530 [Thread-50] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - F:\ING_Work\cognizant-intelligent-test-scripter-1.1\Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login\16-Dec-2018 17-54-42\summary.html
+2018-12-16 17:55:18:636 +0530 [Thread-50] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [F:\ING_Work\cognizant-intelligent-test-scripter-1.1\Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login\16-Dec-2018 17-54-42\summary.html]
+2018-12-16 18:02:11:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Username
+2018-12-16 18:02:11:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username] - Set - @admin
+2018-12-16 18:02:12:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Username
+2018-12-16 18:02:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username] - Set - @admin
+2018-12-16 18:02:13:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Password
+2018-12-16 18:02:13:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password] - setEncrypted - @admin123
+2018-12-16 18:02:14:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Sign in
+2018-12-16 18:02:14:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Sign in] - Click - null
+2018-12-16 18:02:16:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Password
+2018-12-16 18:02:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password] - setEncrypted - @admin123
+2018-12-16 18:02:17:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Sign in
+2018-12-16 18:02:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Sign in] - Click - null
+2018-12-16 18:06:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:06:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:06:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Build Now
+2018-12-16 18:06:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build Now] - Click - null
+2018-12-16 18:06:19:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build Now
+2018-12-16 18:06:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build Now] - Click - null
+2018-12-16 18:06:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #2
+2018-12-16 18:06:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#2] - Click - null
+2018-12-16 18:06:50:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 18:06:50:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 18:08:50:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Username
+2018-12-16 18:08:50:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username] - Set - @admin
+2018-12-16 18:08:50:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Username
+2018-12-16 18:08:50:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username] - Set - @admin
+2018-12-16 18:08:54:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Password
+2018-12-16 18:08:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password] - setEncrypted - @admin123
+2018-12-16 18:08:54:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Password
+2018-12-16 18:08:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password] - setEncrypted - @admin123
+2018-12-16 18:08:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : remember_me
+2018-12-16 18:08:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[remember_me] - Click - null
+2018-12-16 18:08:56:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign
+Object : Sign in
+2018-12-16 18:08:56:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Sign in] - Click - null
+2018-12-16 18:09:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:09:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:09:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Configure
+2018-12-16 18:09:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 18:09:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : General
+2018-12-16 18:09:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[General] - Click - null
+2018-12-16 18:09:32:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:09:32:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:09:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Build with Parameters
+2018-12-16 18:09:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:09:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : value
+2018-12-16 18:09:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value] - Click - null
+2018-12-16 18:09:48:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value
+2018-12-16 18:09:48:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value] - Click - null
+2018-12-16 18:09:53:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value
+2018-12-16 18:09:53:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value] - Set - @Projects\SampleProject
+2018-12-16 18:09:54:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value
+2018-12-16 18:09:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value] - Set - @Projects\SampleProject
+2018-12-16 18:12:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : value1
+2018-12-16 18:12:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value1] - Click - null
+2018-12-16 18:12:34:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value1
+2018-12-16 18:12:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value1] - Set - @Spritz_Webpage
+2018-12-16 18:12:34:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value1
+2018-12-16 18:12:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value1] - Set - @Spritz_Webpage
+2018-12-16 18:12:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : value2
+2018-12-16 18:12:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value2] - Click - null
+2018-12-16 18:12:43:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value2
+2018-12-16 18:12:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value2] - Set - @Login
+2018-12-16 18:12:43:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value2
+2018-12-16 18:12:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value2] - Set - @Login
+2018-12-16 18:12:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : value3
+2018-12-16 18:12:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value3] - Click - null
+2018-12-16 18:12:47:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value3
+2018-12-16 18:12:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value3] - Set - @Chrome
+2018-12-16 18:12:47:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : value3
+2018-12-16 18:12:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[value3] - Set - @Chrome
+2018-12-16 18:12:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Build
+2018-12-16 18:12:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build] - Click - null
+2018-12-16 18:12:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #3
+2018-12-16 18:12:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#3] - Click - null
+2018-12-16 18:12:57:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 18:12:57:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 18:14:13:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:14:13:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:14:15:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 18:14:15:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:14:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Configure
+2018-12-16 18:14:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 18:14:29:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.defaultValue
+2018-12-16 18:14:29:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue] - Click - null
+2018-12-16 18:14:34:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue
+2018-12-16 18:14:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue] - Set - @Projects\SampleProject
+2018-12-16 18:14:34:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue
+2018-12-16 18:14:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue] - Set - @Projects\SampleProject
+2018-12-16 18:14:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.description
+2018-12-16 18:14:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.description] - Click - null
+2018-12-16 18:14:35:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.description
+2018-12-16 18:14:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.description] - Click - null
+2018-12-16 18:14:42:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.defaultValue1
+2018-12-16 18:14:42:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue1] - Click - null
+2018-12-16 18:14:52:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue1
+2018-12-16 18:14:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue1] - Set - @Spritz_Webpage
+2018-12-16 18:14:52:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue1
+2018-12-16 18:14:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue1] - Set - @Spritz_Webpage
+2018-12-16 18:14:53:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.defaultValue2
+2018-12-16 18:14:53:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue2] - Click - null
+2018-12-16 18:15:00:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue2
+2018-12-16 18:15:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue2] - Set - @Login
+2018-12-16 18:15:00:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue2
+2018-12-16 18:15:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue2] - Set - @Login
+2018-12-16 18:15:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.defaultValue3
+2018-12-16 18:15:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue3] - Click - null
+2018-12-16 18:15:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.defaultValue4
+2018-12-16 18:15:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue4] - Set - @Chrome
+2018-12-16 18:15:08:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue4
+2018-12-16 18:15:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue4] - Set - @Chrome
+2018-12-16 18:15:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save
+2018-12-16 18:15:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save] - Click - null
+2018-12-16 18:15:11:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 18:15:11:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:15:14:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Build1
+2018-12-16 18:15:14:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build1] - Click - null
+2018-12-16 18:15:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #4
+2018-12-16 18:15:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#4] - Click - null
+2018-12-16 18:15:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 18:15:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 18:16:15:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:16:15:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:16:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #41
+2018-12-16 18:16:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#41] - Click - null
+2018-12-16 18:16:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:16:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:17:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Jenkins
+2018-12-16 18:17:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 18:17:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Manage Jenkins
+2018-12-16 18:17:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Manage Jenkins] - Click - null
+2018-12-16 18:17:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Manage Plugins
+2018-12-16 18:17:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Manage Plugins] - Click - null
+2018-12-16 18:17:32:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Available
+2018-12-16 18:17:32:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Available] - Click - null
+2018-12-16 18:17:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : filter-box
+2018-12-16 18:17:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Set - @green balls
+2018-12-16 18:17:45:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:17:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Set - @green balls
+2018-12-16 18:17:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : plugin.greenballs.default
+2018-12-16 18:17:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[plugin.greenballs.default] - Click - null
+2018-12-16 18:17:46:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Install without restart
+2018-12-16 18:17:46:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Install without restart] - Click - null
+2018-12-16 18:18:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Update Center
+2018-12-16 18:18:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Update Center] - Click - null
+2018-12-16 18:18:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Jenkins
+2018-12-16 18:18:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 18:18:30:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : Manage Jenkins
+2018-12-16 18:18:30:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Manage Jenkins] - Click - null
+2018-12-16 18:18:37:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Manage
+Object : Manage Plugins
+2018-12-16 18:18:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Manage Plugins] - Click - null
+2018-12-16 18:18:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Installed
+2018-12-16 18:18:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Installed] - Click - null
+2018-12-16 18:18:44:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:18:44:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Click - null
+2018-12-16 18:18:49:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:18:49:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Set - @html
+2018-12-16 18:18:49:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:18:49:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Set - @html
+2018-12-16 18:18:49:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Available1
+2018-12-16 18:18:49:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Available1] - Click - null
+2018-12-16 18:19:16:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:19:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Set - @html pu
+2018-12-16 18:19:16:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:19:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Set - @html pu
+2018-12-16 18:19:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : plugin.htmlpublisher.default
+2018-12-16 18:19:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[plugin.htmlpublisher.default] - Click - null
+2018-12-16 18:19:17:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : Install without restart
+2018-12-16 18:19:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Install without restart] - Click - null
+2018-12-16 18:19:25:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : Jenkins
+2018-12-16 18:19:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 18:19:27:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : CITS_Freestyle_Local
+2018-12-16 18:19:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:19:30:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 18:19:30:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:19:33:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build1
+2018-12-16 18:19:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build1] - Click - null
+2018-12-16 18:19:44:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #5
+2018-12-16 18:19:44:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#5] - Click - null
+2018-12-16 18:19:46:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 18:19:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 18:20:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:20:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:22:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : fa fa-play-circle-o
+2018-12-16 18:22:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[fa fa-play-circle-o] - Click - null
+2018-12-16 18:22:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Play Video
+2018-12-16 18:22:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play Video] - Click - null
+2018-12-16 18:23:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : vjs-menu-content
+2018-12-16 18:23:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[vjs-menu-content] - selectValueFromUnorderedList - @captions off, selected
+2018-12-16 18:23:28:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Jenkins
+2018-12-16 18:23:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 18:23:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : vjs-mouse-display
+2018-12-16 18:23:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[vjs-mouse-display] - Click - null
+2018-12-16 18:23:52:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : vjs-mouse-display
+2018-12-16 18:23:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[vjs-mouse-display] - Click - null
+2018-12-16 18:23:54:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : vjs-mouse-display
+2018-12-16 18:23:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[vjs-mouse-display] - Click - null
+2018-12-16 18:23:57:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : vjs-mouse-display
+2018-12-16 18:23:57:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[vjs-mouse-display] - Click - null
+2018-12-16 18:24:03:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Loaded: 0%Progress: 0%
+2018-12-16 18:24:03:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Loaded: 0%Progress: 0%] - Click - null
+2018-12-16 18:24:06:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : vjs-mouse-display
+2018-12-16 18:24:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[vjs-mouse-display] - Click - null
+2018-12-16 18:24:12:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : vjs-mouse-display
+2018-12-16 18:24:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[vjs-mouse-display] - Click - null
+2018-12-16 18:24:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Pause
+2018-12-16 18:24:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Pause] - Click - null
+2018-12-16 18:24:55:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Play
+2018-12-16 18:24:55:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play] - Click - null
+2018-12-16 18:25:10:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Pause
+2018-12-16 18:25:10:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Pause] - Click - null
+2018-12-16 18:25:14:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Play
+2018-12-16 18:25:14:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play] - Click - null
+2018-12-16 18:33:44:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Pause
+2018-12-16 18:33:44:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Pause] - Click - null
+2018-12-16 18:33:53:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : CITS_Freestyle_Local
+2018-12-16 18:33:53:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:34:03:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Jenkins
+2018-12-16 18:34:03:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 18:34:06:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : Manage Jenkins
+2018-12-16 18:34:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Manage Jenkins] - Click - null
+2018-12-16 18:34:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Add, remove, disable or enable
+2018-12-16 18:34:16:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Add, remove, disable or enable] - Click - null
+2018-12-16 18:34:19:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : Installed
+2018-12-16 18:34:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Installed] - Click - null
+2018-12-16 18:34:22:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:34:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Click - null
+2018-12-16 18:34:31:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:34:31:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Set - @html
+2018-12-16 18:34:31:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : filter-box
+2018-12-16 18:34:31:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[filter-box] - Set - @html
+2018-12-16 18:34:31:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : HTML Publisher plugin
+2018-12-16 18:34:31:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[HTML Publisher plugin] - Click - null
+2018-12-16 18:35:55:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Update
+Object : Jenkins
+2018-12-16 18:35:55:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 18:35:58:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : CITS_Freestyle_Local
+2018-12-16 18:35:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:36:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #51
+2018-12-16 18:36:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#51] - Click - null
+2018-12-16 18:36:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:36:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:36:07:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 18:36:07:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 18:36:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Add post-build action
+2018-12-16 18:36:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Add post-build action] - Click - null
+2018-12-16 18:36:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Publish HTML reports
+2018-12-16 18:36:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Publish HTML reports] - Click - null
+2018-12-16 18:36:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Add
+2018-12-16 18:36:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Add] - Click - null
+2018-12-16 18:37:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.reportFiles
+2018-12-16 18:37:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportFiles] - Set - @summary.html
+2018-12-16 18:37:18:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportFiles
+2018-12-16 18:37:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportFiles] - Set - @summary.html
+2018-12-16 18:37:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.reportDir
+2018-12-16 18:37:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir] - Click - null
+2018-12-16 18:37:34:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir
+2018-12-16 18:37:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir] - Set - @C:\Users\Shree Ganesh\.jenkins\workspace\CITS_Freestyle_Local\Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login
+2018-12-16 18:37:34:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir
+2018-12-16 18:37:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir] - Set - @C:\Users\Shree Ganesh\.jenkins\workspace\CITS_Freestyle_Local\Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login
+2018-12-16 18:37:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.reportTitles
+2018-12-16 18:37:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportTitles] - Click - null
+2018-12-16 18:37:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Apply
+2018-12-16 18:37:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Apply] - Click - null
+2018-12-16 18:37:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save1
+2018-12-16 18:37:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save1] - Click - null
+2018-12-16 18:38:42:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Play
+2018-12-16 18:38:42:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play] - Click - null
+2018-12-16 18:42:34:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Pause
+2018-12-16 18:42:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Pause] - Click - null
+2018-12-16 18:43:06:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 18:43:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:43:12:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Configure
+2018-12-16 18:43:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 18:43:40:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.reportDir1
+2018-12-16 18:43:40:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir1] - Set - @Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login
+2018-12-16 18:43:40:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir1
+2018-12-16 18:43:40:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir1] - Set - @Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login
+2018-12-16 18:45:08:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir1
+2018-12-16 18:45:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir1] - Click - null
+2018-12-16 18:45:09:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir1
+2018-12-16 18:45:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir1] - Click - null
+2018-12-16 18:45:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Publishing options...
+2018-12-16 18:45:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Publishing options...] - Click - null
+2018-12-16 18:45:23:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir1
+2018-12-16 18:45:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir1] - Click - null
+2018-12-16 18:45:23:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir1
+2018-12-16 18:45:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir1] - Click - null
+2018-12-16 18:45:28:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir1
+2018-12-16 18:45:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir1] - Set - @Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login\Latest
+2018-12-16 18:45:28:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir1
+2018-12-16 18:45:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir1] - Set - @Projects\SampleProject\Results\TestDesign\Spritz_Webpage\Login\Latest
+2018-12-16 18:45:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Apply1
+2018-12-16 18:45:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Apply1] - Click - null
+2018-12-16 18:45:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save2
+2018-12-16 18:45:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save2] - Click - null
+2018-12-16 18:45:39:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 18:45:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:45:43:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build1
+2018-12-16 18:45:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build1] - Click - null
+2018-12-16 18:45:49:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #6
+2018-12-16 18:45:49:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#6] - Click - null
+2018-12-16 18:45:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 18:45:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 18:46:14:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Play
+2018-12-16 18:46:14:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play] - Click - null
+2018-12-16 18:47:04:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Pause
+2018-12-16 18:47:04:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Pause] - Click - null
+2018-12-16 18:47:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:47:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:47:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : HTML Report
+2018-12-16 18:47:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[HTML Report] - Click - null
+2018-12-16 18:48:05:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 18:48:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 18:48:40:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : CITS_Freestyle_Local
+2018-12-16 18:48:40:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:48:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #61
+2018-12-16 18:48:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#61] - Click - null
+2018-12-16 18:48:46:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local10
+Object : Console Output
+2018-12-16 18:48:46:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 18:49:52:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local11
+Object : CITS_Freestyle_Local
+2018-12-16 18:49:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:49:54:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 18:49:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 18:50:05:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : Publishing options...
+2018-12-16 18:50:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Publishing options...] - Click - null
+2018-12-16 18:50:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : command
+2018-12-16 18:50:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command] - Click - null
+2018-12-16 18:50:59:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.reportDir2
+2018-12-16 18:50:59:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir2] - Click - null
+2018-12-16 18:51:07:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir2
+2018-12-16 18:51:07:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir2] - Set - @Projects\SampleProject\Results\TestDesign\%Release_R_Scenario%\Login\Latest
+2018-12-16 18:51:07:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir2
+2018-12-16 18:51:07:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir2] - Set - @Projects\SampleProject\Results\TestDesign\%Release_R_Scenario%\Login\Latest
+2018-12-16 18:51:09:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command
+2018-12-16 18:51:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command] - Click - null
+2018-12-16 18:51:13:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir2
+2018-12-16 18:51:13:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir2] - Click - null
+2018-12-16 18:51:18:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir2
+2018-12-16 18:51:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir2] - Set - @Projects\SampleProject\Results\TestDesign\%Release_R_Scenario%\%TestSet_R_TestCase%\Latest
+2018-12-16 18:51:18:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir2
+2018-12-16 18:51:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir2] - Set - @Projects\SampleProject\Results\TestDesign\%Release_R_Scenario%\%TestSet_R_TestCase%\Latest
+2018-12-16 18:52:29:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save3
+2018-12-16 18:52:29:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save3] - Click - null
+2018-12-16 18:52:32:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 18:52:32:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:52:36:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Configure
+2018-12-16 18:52:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 18:52:54:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command
+2018-12-16 18:52:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command] - Click - null
+2018-12-16 18:53:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : command1
+2018-12-16 18:53:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command1] - Click - null
+2018-12-16 18:53:21:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command1
+2018-12-16 18:53:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command1] - Click - null
+2018-12-16 18:53:21:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command1
+2018-12-16 18:53:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command1] - Click - null
+2018-12-16 18:53:23:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command1
+2018-12-16 18:53:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command1] - Click - null
+2018-12-16 18:53:27:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command1
+2018-12-16 18:53:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command1] - Click - null
+2018-12-16 18:53:27:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command1
+2018-12-16 18:53:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command1] - Click - null
+2018-12-16 18:53:28:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command1
+2018-12-16 18:53:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command1] - Click - null
+2018-12-16 18:53:33:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command1
+2018-12-16 18:53:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command1] - Set - @IF "%ExecutionMode%"=="TestDesign" ( SET RUN_PROP=-scenario "%Release_R_Scenario%" -testcase "%TestSet_R_TestCase%" -browser "%BrowserName%" ) ELSE ( SET RUN_PROP=-release "%Release_R_Scenario%" -testset "%TestSet_R_TestCase%" )
+2018-12-16 18:53:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Delete
+2018-12-16 18:53:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Delete] - Click - null
+2018-12-16 18:53:44:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Apply2
+2018-12-16 18:53:44:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Apply2] - Click - null
+2018-12-16 18:53:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save4
+2018-12-16 18:53:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save4] - Click - null
+2018-12-16 18:53:48:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 18:53:48:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:53:51:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Build2
+2018-12-16 18:53:51:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build2] - Click - null
+2018-12-16 18:53:59:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #7
+2018-12-16 18:53:59:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#7] - Click - null
+2018-12-16 18:54:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 18:54:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 18:54:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Search
+2018-12-16 18:54:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Search] - Click - null
+2018-12-16 18:54:52:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Google
+Object : Search
+2018-12-16 18:54:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Search] - Set - @how to pass parameter in path of html
+2018-12-16 18:54:52:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Google
+Object : Search
+2018-12-16 18:54:52:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Search] - Set - @how to pass parameter in path of html
+2018-12-16 18:55:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 18:55:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 18:55:03:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 18:55:03:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 18:55:22:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Google
+Object : Search
+2018-12-16 18:55:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Search] - Set - @how to pass parameter in path of html dirctory to archive in jenkins
+2018-12-16 18:55:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Google Search
+2018-12-16 18:55:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Google Search] - Click - null
+2018-12-16 18:57:40:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.reportDir3
+2018-12-16 18:57:40:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir3] - Click - null
+2018-12-16 18:57:45:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir3
+2018-12-16 18:57:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir3] - Set - @\%TestSet_R_TestCase%\Latest
+2018-12-16 18:57:45:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir3
+2018-12-16 18:57:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir3] - Set - @\%TestSet_R_TestCase%\Latest
+2018-12-16 18:58:43:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir3
+2018-12-16 18:58:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir3] - Set - @\Latest
+2018-12-16 18:58:43:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir3
+2018-12-16 18:58:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir3] - Set - @\Latest
+2018-12-16 18:58:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Apply3
+2018-12-16 18:58:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Apply3] - Click - null
+2018-12-16 18:58:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save5
+2018-12-16 18:58:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save5] - Click - null
+2018-12-16 18:58:49:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 18:58:49:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 18:58:51:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build2
+2018-12-16 18:58:51:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build2] - Click - null
+2018-12-16 18:58:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #8
+2018-12-16 18:58:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#8] - Click - null
+2018-12-16 18:58:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 18:58:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:01:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:01:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:01:08:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 19:01:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 19:01:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Delete1
+2018-12-16 19:01:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Delete1] - Click - null
+2018-12-16 19:01:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save6
+2018-12-16 19:01:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save6] - Click - null
+2018-12-16 19:02:02:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 19:02:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 19:02:04:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build2
+2018-12-16 19:02:04:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build2] - Click - null
+2018-12-16 19:02:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #9
+2018-12-16 19:02:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#9] - Click - null
+2018-12-16 19:02:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 19:02:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:03:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:03:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:03:24:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 19:03:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 19:03:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Add Parameter
+2018-12-16 19:03:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Add Parameter] - Click - null
+2018-12-16 19:03:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : String Parameter
+2018-12-16 19:03:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[String Parameter] - Click - null
+2018-12-16 19:03:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.name
+2018-12-16 19:03:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.name] - Click - null
+2018-12-16 19:03:37:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.name
+2018-12-16 19:03:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.name] - Set - @AdditionalArgs
+2018-12-16 19:03:38:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.name
+2018-12-16 19:03:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.name] - Set - @AdditionalArgs
+2018-12-16 19:03:48:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.description1
+2018-12-16 19:03:48:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.description1] - Click - null
+2018-12-16 19:03:49:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.description1
+2018-12-16 19:03:49:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.description1] - Set - @Additional Arguments if any Check CLI.
+2018-12-16 19:03:57:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : parameter.defaultValue5
+2018-12-16 19:03:57:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue5] - Click - null
+2018-12-16 19:03:58:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue5
+2018-12-16 19:03:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue5] - Set - @-standalone_report
+2018-12-16 19:03:58:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue5
+2018-12-16 19:03:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue5] - Set - @-standalone_report
+2018-12-16 19:04:15:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : command2
+2018-12-16 19:04:15:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command2] - Click - null
+2018-12-16 19:04:22:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : command2
+2018-12-16 19:04:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[command2] - Set - @IF "%ExecutionMode%"=="TestDesign" ( SET RUN_PROP=-scenario "%Release_R_Scenario%" -testcase "%TestSet_R_TestCase%" -browser "%BrowserName%" ) ELSE ( SET RUN_PROP=-release "%Release_R_Scenario%" -testset "%TestSet_R_TestCase%" Run.bat -run -project_location &quot;%ProjectLocation%&quot; %RUN_PROP% %AdditionalArgs% )
+2018-12-16 19:04:31:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save7
+2018-12-16 19:04:31:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save7] - Click - null
+2018-12-16 19:04:33:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 19:04:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 19:04:36:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build1
+2018-12-16 19:04:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build1] - Click - null
+2018-12-16 19:04:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #1​0
+2018-12-16 19:04:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1​0] - Click - null
+2018-12-16 19:04:42:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 19:04:42:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:05:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:05:45:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:05:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #1​01
+2018-12-16 19:05:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1​01] - Click - null
+2018-12-16 19:05:56:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local18
+Object : Console Output
+2018-12-16 19:05:56:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:06:20:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local19
+Object : CITS_Freestyle_Local
+2018-12-16 19:06:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:06:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #62
+2018-12-16 19:06:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#62] - Click - null
+2018-12-16 19:06:25:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local10
+Object : Console Output
+2018-12-16 19:06:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:07:09:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local11
+Object : CITS_Freestyle_Local
+2018-12-16 19:07:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:12:08:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 19:12:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 19:12:11:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build
+2018-12-16 19:12:11:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build] - Click - null
+2018-12-16 19:12:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #1​1
+2018-12-16 19:12:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1​1] - Click - null
+2018-12-16 19:12:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 19:12:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:12:48:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:12:48:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:15:08:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 19:15:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 19:15:19:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Configure
+2018-12-16 19:15:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 19:15:32:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue
+2018-12-16 19:15:32:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue] - Click - null
+2018-12-16 19:15:37:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue
+2018-12-16 19:15:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue] - Set - @Projects\SampleProject
+2018-12-16 19:15:37:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue
+2018-12-16 19:15:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue] - Set - @Projects\SampleProject
+2018-12-16 19:15:42:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue1
+2018-12-16 19:15:42:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue1] - Click - null
+2018-12-16 19:15:51:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue1
+2018-12-16 19:15:51:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue1] - Set - @Spritz_Webpage
+2018-12-16 19:15:51:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue1
+2018-12-16 19:15:51:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue1] - Set - @Spritz_Webpage
+2018-12-16 19:15:51:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue2
+2018-12-16 19:15:51:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue2] - Click - null
+2018-12-16 19:15:55:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue2
+2018-12-16 19:15:55:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue2] - Set - @Login
+2018-12-16 19:15:55:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue2
+2018-12-16 19:15:55:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue2] - Set - @Login
+2018-12-16 19:15:58:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue3
+2018-12-16 19:15:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue3] - Click - null
+2018-12-16 19:16:01:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue3
+2018-12-16 19:16:01:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue3] - Set - @Chrome
+2018-12-16 19:16:01:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : parameter.defaultValue3
+2018-12-16 19:16:01:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[parameter.defaultValue3] - Set - @Chrome
+2018-12-16 19:16:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save8
+2018-12-16 19:16:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save8] - Click - null
+2018-12-16 19:16:11:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 19:16:11:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 19:16:14:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build1
+2018-12-16 19:16:14:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build1] - Click - null
+2018-12-16 19:16:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #1​2
+2018-12-16 19:16:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1​2] - Click - null
+2018-12-16 19:16:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 19:16:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:17:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:17:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:17:31:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #1​21
+2018-12-16 19:17:31:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1​21] - Click - null
+2018-12-16 19:17:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:17:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:17:38:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 19:17:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 19:18:02:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : CITS_Freestyle_Local
+2018-12-16 19:18:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:18:04:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : HTML Report
+2018-12-16 19:18:04:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[HTML Report] - Click - null
+2018-12-16 19:18:15:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : #1​21
+2018-12-16 19:18:15:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1​21] - Click - null
+2018-12-16 19:18:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : HTML Report
+2018-12-16 19:18:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[HTML Report] - Click - null
+2018-12-16 19:18:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Back to #12
+2018-12-16 19:18:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Back to #12] - Click - null
+2018-12-16 19:18:25:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local22
+Object : CITS_Freestyle_Local
+2018-12-16 19:18:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:18:28:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 19:18:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 19:18:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.reportDir4
+2018-12-16 19:18:43:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir4] - Click - null
+2018-12-16 19:19:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.reportFiles1
+2018-12-16 19:19:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportFiles1] - Click - null
+2018-12-16 19:19:24:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportFiles1
+2018-12-16 19:19:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportFiles1] - Set - @summary.html
+2018-12-16 19:19:24:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportFiles1
+2018-12-16 19:19:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportFiles1] - Set - @summary.html
+2018-12-16 19:19:25:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : Save3
+2018-12-16 19:19:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save3] - Click - null
+2018-12-16 19:19:27:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 19:19:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 19:19:29:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build1
+2018-12-16 19:19:29:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build1] - Click - null
+2018-12-16 19:19:48:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #1​3
+2018-12-16 19:19:48:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1​3] - Click - null
+2018-12-16 19:19:50:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 19:19:50:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:20:51:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #13
+2018-12-16 19:20:51:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#13] - Click - null
+2018-12-16 19:20:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : HTML Report
+2018-12-16 19:20:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[HTML Report] - Click - null
+2018-12-16 19:21:59:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Back to #13
+2018-12-16 19:21:59:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Back to #13] - Click - null
+2018-12-16 19:22:01:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local24
+Object : Console Output
+2018-12-16 19:22:01:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:23:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:23:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:23:23:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : HTML Report
+2018-12-16 19:23:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[HTML Report] - Click - null
+2018-12-16 19:23:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Search
+2018-12-16 19:23:36:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Search] - Click - null
+2018-12-16 19:23:37:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : how
+Object : Search
+2018-12-16 19:23:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Search] - Click - null
+2018-12-16 19:23:37:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : how
+Object : Search
+2018-12-16 19:23:37:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Search] - Click - null
+2018-12-16 19:23:54:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : how
+Object : Search
+2018-12-16 19:23:54:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Search] - Set - @in jenkins html report is not displaying properly
+2018-12-16 19:25:07:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Back to CITS_Freestyle_Local
+2018-12-16 19:25:07:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Back to CITS_Freestyle_Local] - Click - null
+2018-12-16 19:25:10:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:25:10:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:25:12:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Jenkins
+2018-12-16 19:25:12:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 19:25:20:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : Manage Jenkins
+2018-12-16 19:25:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Manage Jenkins] - Click - null
+2018-12-16 19:25:32:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Script Console
+2018-12-16 19:25:32:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Script Console] - Click - null
+2018-12-16 19:25:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Object
+2018-12-16 19:25:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Object] - Set - @System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
+2018-12-16 19:25:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : 1System.setProperty("hudson.mo
+2018-12-16 19:25:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[1System.setProperty("hudson.mo] - Click - null
+2018-12-16 19:25:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Run
+2018-12-16 19:25:38:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Run] - Click - null
+2018-12-16 19:25:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Jenkins
+2018-12-16 19:25:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 19:25:53:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : Manage Jenkins
+2018-12-16 19:25:53:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Manage Jenkins] - Click - null
+2018-12-16 19:25:58:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Manage
+Object : Script Console
+2018-12-16 19:25:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Script Console] - Click - null
+2018-12-16 19:26:06:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Object
+2018-12-16 19:26:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Object] - Set - @System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
+2018-12-16 19:26:06:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : 1System.setProperty("hudson.mo
+2018-12-16 19:26:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[1System.setProperty("hudson.mo] - Click - null
+2018-12-16 19:26:06:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Run
+2018-12-16 19:26:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Run] - Click - null
+2018-12-16 19:26:26:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Jenkins
+2018-12-16 19:26:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 19:26:28:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : CITS_Freestyle_Local
+2018-12-16 19:26:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:26:30:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Build with Parameters
+2018-12-16 19:26:30:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build with Parameters] - Click - null
+2018-12-16 19:26:33:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Build1
+2018-12-16 19:26:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build1] - Click - null
+2018-12-16 19:26:44:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #1​4
+2018-12-16 19:26:44:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1​4] - Click - null
+2018-12-16 19:26:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 19:26:47:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 19:27:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Local
+2018-12-16 19:27:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Local] - Click - null
+2018-12-16 19:27:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : HTML Report1
+2018-12-16 19:27:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[HTML Report1] - Click - null
+2018-12-16 19:28:29:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Back to CITS_Freestyle_Local
+2018-12-16 19:28:29:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Back to CITS_Freestyle_Local] - Click - null
+2018-12-16 19:30:18:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local
+Object : Configure
+2018-12-16 19:30:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 19:31:21:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir4
+2018-12-16 19:31:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir4] - Click - null
+2018-12-16 19:31:22:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir4
+2018-12-16 19:31:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir4] - Click - null
+2018-12-16 19:31:22:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Local3
+Object : _.reportDir4
+2018-12-16 19:31:22:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.reportDir4] - Click - null
+2018-12-16 19:35:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Jenkins
+2018-12-16 19:35:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 19:35:20:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Dashboard
+Object : Manage Jenkins
+2018-12-16 19:35:20:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Manage Jenkins] - Click - null
+2018-12-16 19:35:26:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Manage
+Object : Script Console
+2018-12-16 19:35:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Script Console] - Click - null
+2018-12-16 19:38:05:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Jenkins
+Object : Jenkins
+2018-12-16 19:38:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Jenkins] - Click - null
+2018-12-16 19:38:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : New Item
+2018-12-16 19:38:09:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[New Item] - Click - null
+2018-12-16 19:38:13:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Enter an item name
+2018-12-16 19:38:13:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Click - null
+2018-12-16 19:38:23:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:23:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Click - null
+2018-12-16 19:38:25:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:25:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Click - null
+2018-12-16 19:38:26:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Click - null
+2018-12-16 19:38:27:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Click - null
+2018-12-16 19:38:27:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Click - null
+2018-12-16 19:38:27:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Click - null
+2018-12-16 19:38:28:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:28:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Set - @CITS_Freestyle_Local
+2018-12-16 19:38:33:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Set - @CITS_Freestyle_Git
+2018-12-16 19:38:33:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : New
+Object : Enter an item name
+2018-12-16 19:38:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Enter an item name] - Set - @CITS_Freestyle_Git
+2018-12-16 19:38:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : j-item-options
+2018-12-16 19:38:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[j-item-options] - selectValueFromUnorderedList - @Freestyle projectThis is the central feature of Jenkins. Jenkins will build your project, combining any SCM with any build system, and this can be even used for something other than software build.
+2018-12-16 19:38:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : OK
+2018-12-16 19:38:34:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[OK] - Click - null
+2018-12-16 19:38:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : description
+2018-12-16 19:38:39:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[description] - Click - null
+2018-12-16 19:38:57:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Git
+Object : description
+2018-12-16 19:38:57:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[description] - Set - @CITS project taken from git repo
+2018-12-16 19:38:57:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : scm
+2018-12-16 19:38:57:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[scm] - Click - null
+2018-12-16 19:39:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Sign in
+2018-12-16 19:39:06:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Sign in] - Click - null
+2018-12-16 19:39:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Username or email address
+2018-12-16 19:39:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username or email address] - Set - @supriya.pote@cognizant.com
+2018-12-16 19:39:17:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign1
+Object : Username or email address
+2018-12-16 19:39:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username or email address] - Set - @supriya.pote@cognizant.com
+2018-12-16 19:39:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Password Forgot password?
+2018-12-16 19:39:18:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password Forgot password?] - Click - null
+2018-12-16 19:39:21:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign1
+Object : Password Forgot password?
+2018-12-16 19:39:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password Forgot password?] - setEncrypted - @gbs@1234#
+2018-12-16 19:39:21:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Sign1
+Object : Password Forgot password?
+2018-12-16 19:39:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password Forgot password?] - setEncrypted - @gbs@1234#
+2018-12-16 19:39:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Sign in
+2018-12-16 19:39:21:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Sign in] - Click - null
+2018-12-16 19:39:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CI-CD-Integration
+2018-12-16 19:39:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CI-CD-Integration] - Click - null
+2018-12-16 19:39:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : supriyaCICD
+2018-12-16 19:39:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[supriyaCICD] - Click - null
+2018-12-16 20:50:00:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Play
+2018-12-16 20:50:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play] - Click - null
+2018-12-16 20:50:00:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Play
+2018-12-16 20:50:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play] - Click - null
+2018-12-16 20:50:04:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Play
+2018-12-16 20:50:04:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play] - Click - null
+2018-12-16 20:59:53:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Fullscreen
+2018-12-16 20:59:53:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Fullscreen] - Click - null
+2018-12-16 21:03:35:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Pause
+2018-12-16 21:03:35:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Pause] - Click - null
+2018-12-16 21:04:10:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Page
+Object : Play
+2018-12-16 21:04:10:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Play] - Click - null
+2018-12-16 21:18:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : supriyaCICD
+2018-12-16 21:18:41:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[supriyaCICD] - Click - null
+2018-12-16 21:18:50:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : snehaCICD
+2018-12-16 21:18:50:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[snehaCICD] - Click - null
+2018-12-16 21:19:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Branch: master
+2018-12-16 21:19:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Branch: master] - Click - null
+2018-12-16 21:19:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITSBranch
+2018-12-16 21:19:05:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITSBranch] - Click - null
+2018-12-16 21:19:15:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : snehaCICD
+2018-12-16 21:19:15:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[snehaCICD] - Click - null
+2018-12-16 21:19:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITSIntegration
+2018-12-16 21:19:19:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITSIntegration] - Click - null
+2018-12-16 21:19:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Branch: master
+2018-12-16 21:19:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Branch: master] - Click - null
+2018-12-16 21:19:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : TestCITS
+2018-12-16 21:19:26:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[TestCITS] - Click - null
+2018-12-16 21:19:59:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.url
+2018-12-16 21:19:59:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.url] - Click - null
+2018-12-16 21:20:01:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Git
+Object : _.url
+2018-12-16 21:20:01:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.url] - Set - @https://github.com/snehaCICD/CITSIntegration.git
+2018-12-16 21:20:02:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Git
+Object : _.url
+2018-12-16 21:20:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.url] - Set - @https://github.com/snehaCICD/CITSIntegration.git
+2018-12-16 21:20:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : _.name
+2018-12-16 21:20:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.name] - Click - null
+2018-12-16 21:20:33:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Git
+Object : _.name
+2018-12-16 21:20:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.name] - Set - @*/TestCITS
+2018-12-16 21:20:33:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : CITS_Freestyle_Git
+Object : _.name
+2018-12-16 21:20:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[_.name] - Set - @*/TestCITS
+2018-12-16 21:20:56:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Add post-build action
+2018-12-16 21:20:56:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Add post-build action] - Click - null
+2018-12-16 21:20:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Publish HTML reports
+2018-12-16 21:20:58:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Publish HTML reports] - Click - null
+2018-12-16 21:21:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Git
+2018-12-16 21:21:02:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Git] - Click - null
+2018-12-16 21:21:07:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save
+2018-12-16 21:21:07:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save] - Click - null
+2018-12-16 21:21:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Build Now
+2018-12-16 21:21:24:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Build Now] - Click - null
+2018-12-16 21:21:30:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : #1
+2018-12-16 21:21:30:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[#1] - Click - null
+2018-12-16 21:21:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Console Output
+2018-12-16 21:21:33:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Console Output] - Click - null
+2018-12-16 21:24:03:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : CITS_Freestyle_Git
+2018-12-16 21:24:03:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[CITS_Freestyle_Git] - Click - null
+2018-12-16 21:24:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Configure
+2018-12-16 21:24:08:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Configure] - Click - null
+2018-12-16 21:24:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Advanced...
+2018-12-16 21:24:27:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Advanced...] - Click - null
+2018-12-16 21:24:46:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : snehaCICD
+2018-12-16 21:24:46:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[snehaCICD] - Click - null
+2018-12-16 21:24:55:12S +0530 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : snehaCICD_CITSIntegration1
+Object : snehaCICD
+2018-12-16 21:24:55:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[snehaCICD] - Click - null
+2018-12-16 21:25:01:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Repositories 2
+2018-12-16 21:25:01:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Repositories 2] - Click - null
+2018-12-16 21:25:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Git_Jenkins_Int
+2018-12-16 21:25:17:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Git_Jenkins_Int] - Click - null
+2018-12-16 21:27:00:12S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 03:44:26.170 ]
