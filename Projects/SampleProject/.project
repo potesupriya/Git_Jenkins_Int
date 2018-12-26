@@ -36,5 +36,16 @@
     "attributes" : [ ],
     "tags" : [ ]
   } ],
-  "data" : [ ]
+  "data" : [ {
+    "id" : "Spritz_Webpage#Login",
+    "name" : "Login",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "Spritz_Webpage"
+    } ]
+  } ]
 }
